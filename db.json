@@ -31,23 +31,13 @@
       "organizer": "Carey Wales"
     },
     {
-      "id": "c259cee5-7559-449f-a744-73a038e9b1bc",
-      "category": "food",
-      "title": "Ice cream meeting",
-      "description": "Let's taste good ice cream together",
-      "location": "Shanghai",
+      "id": "8e218238-a4f2-46ee-8ca9-71afe7fd528c",
+      "category": "sustainability",
+      "title": "aaa",
+      "description": "bbbb",
+      "location": "ccc",
       "date": "09/20/2021",
-      "time": "10:00",
-      "organizer": "Andy Warhol"
-    },
-    {
-      "id": "b430ab35-a557-4c17-956c-d1a90930956e",
-      "category": "housing",
-      "title": "Learning Luncheon",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
+      "time": "8:00",
       "organizer": "Andy Warhol"
     }
   ]
