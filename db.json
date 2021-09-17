@@ -1,7 +1,7 @@
 {
   "events": [
     {
-      "id": 123,
+      "id": "123",
       "category": "animal welfare",
       "title": "Cat Adoption Day",
       "description": "Find your new feline friend at this event.",
@@ -11,7 +11,7 @@
       "organizer": "Kat Laydee"
     },
     {
-      "id": 456,
+      "id": "456",
       "category": "food",
       "title": "Community Gardening",
       "description": "Join us as we tend to the community edible plants.",
@@ -21,7 +21,7 @@
       "organizer": "Fern Pollin"
     },
     {
-      "id": 789,
+      "id": "789",
       "category": "sustainability",
       "title": "Beach Cleanup",
       "description": "Help pick up trash along the shore.",
@@ -29,6 +29,26 @@
       "date": "July 22, 2022",
       "time": "11:00",
       "organizer": "Carey Wales"
+    },
+    {
+      "id": "c259cee5-7559-449f-a744-73a038e9b1bc",
+      "category": "food",
+      "title": "Ice cream meeting",
+      "description": "Let's taste good ice cream together",
+      "location": "Shanghai",
+      "date": "09/20/2021",
+      "time": "10:00",
+      "organizer": "Andy Warhol"
+    },
+    {
+      "id": "b430ab35-a557-4c17-956c-d1a90930956e",
+      "category": "housing",
+      "title": "Learning Luncheon",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "organizer": "Andy Warhol"
     }
   ]
 }
