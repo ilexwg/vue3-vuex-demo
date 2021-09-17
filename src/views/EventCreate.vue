@@ -79,12 +79,20 @@ export default {
         organizer: this.$store.state.user,
       };
 
-      this.$store.dispatch('createEvent', event).then(() => {
-        this.$router.push({
-          name: 'EventDetails',
-          params: { id: event.id },
+      this.$store
+        .dispatch('createEvent', event)
+        .then(() => {
+          this.$router.push({
+            name: 'EventDetails',
+            params: { id: event.id },
+          });
+        })
+        .catch((error) => {
+          this.$router.push({
+            name: 'ErrorDisplay',
+            params: { error },
+          });
         });
-      });
     },
   },
 };

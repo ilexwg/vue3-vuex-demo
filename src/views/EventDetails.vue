@@ -17,7 +17,12 @@ export default {
   },
 
   created() {
-    this.$store.dispatch('fetchEvent', this.id);
+    this.$store.dispatch('fetchEvent', this.id).catch((error) => {
+      this.$router.push({
+        name: 'ErrorDisplay',
+        params: { error },
+      });
+    });
   },
 };
 </script>
